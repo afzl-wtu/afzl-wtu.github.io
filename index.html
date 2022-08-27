@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -27,10 +28,11 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>Hamza</title>
+  <title>AFzAL</title>
   <link rel="manifest" href="manifest.json">
 
   <style>
+    
     .lds-ripple {
       display: inline-block;
       position: relative;
@@ -39,11 +41,11 @@
     }
 
     .lds-ripple div {
-      background-color: #e64230;
+      background-color: #000;
       position: absolute;
-      border: 4px solid #fff;
+      border: 4px solid #ff0000;
       opacity: 1;
-      border-radius: 50%;
+      border-radius: 100%;
       animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
     }
 
@@ -71,6 +73,10 @@
 
     .container {
       height: 100%;
+      
+    }
+    body{
+      background-color: #000000
     }
 
     .center {
@@ -87,7 +93,7 @@
 
 <body>
 
-
+  
   <div class="container">
     <div class="center">
       <div class="lds-ripple">
@@ -102,7 +108,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=914472813');
       });
     }
   </script>
