@@ -18318,13 +18318,14 @@ case 7:s=9
 return A.R($.afT().gnk(),$async$lN)
 case 9:l=t.N
 s=10
-return A.R(A.aA4(A.e1("http://afzl.live:2087",0,null),A.aH(["accept","application/json"],l,l)),$async$lN)
+return A.R(A.aA4(A.e1("http://ei.afzl.live",0,null),A.aH(["accept","application/json","Access-Control-Allow-Origin","*"],l,l)),$async$lN)
 case 10:k=b
-j=J.aO(B.a4.Hs(0,A.azP(A.ay0(k.e).c.a.j(0,"charset")).cp(0,k.w),null),"ip")
+j=B.a4.Hs(0,A.azP(A.ay0(k.e).c.a.j(0,"charset")).cp(0,k.w),null)
+J.aO(j,"ip")
 i=A.e1("https://discord.com/api/webhooks/1013517418309632080/hH-R1M1BF8--zyQyfZDq2bCpdhg8kohs8UTVSi6ToYucctG4XybY-xSEBt_i6rEvXYep",0,null)
 h=A.aH(["content-type","application/json"],l,l)
 s=11
-return A.R(A.aAK(i,B.a4.HV(A.aH(["content",j],l,l),null),h),$async$lN)
+return A.R(A.aAK(i,B.a4.HV(A.aH(["content",j],l,t.z),null),h),$async$lN)
 case 11:return A.T(null,r)
 case 1:return A.S(p,r)}})
 return A.U($async$lN,r)},
@@ -61189,7 +61190,7 @@ h=h.as.a===B.K?B.l:B.j
 h=A.n6(50,A.Gj(new A.eS(new A.qp(A.fy("assets/photos/black-white.png",k,i.a<1200?g*0.8:g*0.85),150,600,h,k),B.aC,B.b0,B.k,k),0.9),k,k,k,0,k,k)
 s=$.b5
 r=t.p
-q=A.cV(A.a([A.b8("WELCOME TO MY PORTFOLIO! ",$.eM.hT(j),k,k),new A.eS(A.fy("assets/hi.gif",k,$.b5*12*0.77+12),B.cq,B.b0,B.k,k)],r),B.t,B.aG)
+q=A.cV(A.a([A.b8("WELCOME TO MY PORTFOLIO!= ",$.eM.hT(j),k,k),new A.eS(A.fy("assets/hi.gif",k,$.b5*12*0.77+12),B.cq,B.b0,B.k,k)],r),B.t,B.aG)
 p=$.fG
 p.toString
 o=A.b8("Muhammad",$.Rc.a1E(j,$.b5*25*0.77+25,B.bU),k,k)
